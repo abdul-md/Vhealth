@@ -3,7 +3,6 @@ package SetUp;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
-import org.automationtesting.excelreport.Xl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
@@ -116,7 +115,7 @@ public class LaunchSetup
 	
 	@AfterMethod
 	public void TearDown(ITestResult result) throws Exception{
-		Xl.generateReport("Excel-Report.xlsx");
+//		Xl.generateReport("Excel-Report.xlsx");
 		
 	if (result.getStatus() == ITestResult.FAILURE ){
 	TakesScreenshot ts = (TakesScreenshot)driver;

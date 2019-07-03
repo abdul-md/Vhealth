@@ -16,8 +16,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/AHAD Project Data/New folder (5)/AT Excel Report Jars/ATExcelReport.jar"/>
-	<classpathentry kind="lib" path="D:/AHAD Project Data/New folder (5)/AT Excel Report Jars/jfreechart.jar"/>
-	<classpathentry kind="lib" path="D:/AHAD Project Data/New folder (5)/AT Excel Report Jars/jfreechart-dependency-jcommon-1.0.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

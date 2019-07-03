@@ -67,4 +67,29 @@ public void verify3()
 //  System.out.println(driver.getPageSource());
 }
 
+@Test(priority=4)
+public void verify4()
+{
+    LoginPage login=new LoginPage(driver);
+    login.set_username("charaksupport");
+    login.press_TAB();
+    login.set_password("charak");
+    login.click_loginbutton();
+//  Assert.assertEquals(driver.findElement(By.xpath(".//*[@id='tdHeaderText']/b")).getText(), "Welcome to V-HEALTH");
+    Assert.assertTrue(driver.getPageSource().contains("PatientBannerField"));
+//  System.out.println(driver.getPageSource());
+}
+@Test(priority=5)
+public void verify5()
+{
+    LoginPage login=new LoginPage(driver);
+    login.set_username("charaksupport");
+    login.press_TAB();
+    login.set_password("charak");
+    login.click_loginbutton();
+//  Assert.assertEquals(driver.findElement(By.xpath(".//*[@id='tdHeaderText']/b")).getText(), "Welcome to V-HEALTH");
+    Assert.assertTrue(driver.getPageSource().contains("PatientBannerField"));
+//  System.out.println(driver.getPageSource());
+}
+
 }
