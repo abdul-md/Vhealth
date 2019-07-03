@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.Test_ER_Visit">
+        <methods>
+          <include name="ER_visit" invocation-numbers="0 1 2 3"/>
+          <include name="closeApp"/>
+          <include name="ffProfile"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Tests.Test_ER_Visit -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

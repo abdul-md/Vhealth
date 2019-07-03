@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9240" started-at="2019-07-02T06:16:16Z" finished-at="2019-07-02T06:16:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9240" started-at="2019-07-02T06:16:16Z" finished-at="2019-07-02T06:16:25Z">
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@b7dd107]" name="setup" is-config="true" duration-ms="3924" started-at="2019-07-02T06:16:16Z" finished-at="2019-07-02T06:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify1()[pri:1, instance:Tests.LoginTest@b7dd107]" name="verify1" duration-ms="1684" started-at="2019-07-02T06:16:20Z" finished-at="2019-07-02T06:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify1 -->
+        <test-method status="PASS" signature="verify2()[pri:2, instance:Tests.LoginTest@b7dd107]" name="verify2" duration-ms="1576" started-at="2019-07-02T06:16:22Z" finished-at="2019-07-02T06:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify2 -->
+        <test-method status="PASS" signature="verify3()[pri:3, instance:Tests.LoginTest@b7dd107]" name="verify3" duration-ms="2036" started-at="2019-07-02T06:16:23Z" finished-at="2019-07-02T06:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify3 -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
