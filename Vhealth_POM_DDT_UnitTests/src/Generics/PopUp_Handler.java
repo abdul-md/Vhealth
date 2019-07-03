@@ -36,6 +36,7 @@ public class PopUp_Handler extends LaunchSetup {
 	}
 	
 	
+	
 	public static void click_popupBtn_Yes(){
 		driver.switchTo().defaultContent();
 		String str_popup_text=getTxt_popup.getText();
@@ -65,8 +66,6 @@ public class PopUp_Handler extends LaunchSetup {
 		Reporter.log("str_popup_text :"+str_popup_text,bool);
 		return str_popup_text;	
 	}
-	
-	
 	
 	
 	
